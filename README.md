@@ -1,14 +1,43 @@
-Steps to Run the Project:
+# Academic Companion Bot #
 
-1. Install Dependencies:
+Academic Companion Bot is an AI-driven assistant designed to support students in their academic journey. It offers features such as homework assistance, exam preparation, plagiarism checking, and career guidance, all through a user-friendly chat interface.
 
-pip install flask sympy transformers pymongo plagiarism-checker
+## Features ##
 
+Homework Assistance: Provides solutions and explanations for various academic problems.
+Exam Preparation: Generates quizzes and practice tests to aid in studying.
+Plagiarism Checker: Analyzes text to detect potential plagiarism.
+Career Guidance: Offers advice and resources for career planning.
 
-2. Run the Flask App:
+## Installation
+### Clone the Repository:
+
+git clone https://github.com/jaishakj/Academic_Companion_Bot.git
+
+cd Academic_Companion_Bot
+
+### Create and Activate a Virtual Environment:
+
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+### Install Dependencies:
+
+pip install -r requirements.txt
+
+### Set Up Environment Variables:
+
+   Create a .env file in the root directory.
+ 
+   Add necessary configurations (e.g., API keys, database URLs).
+ 
+## Usage
+### Run the Application:
 
 python app.py
 
+### Access the Bot:
 
-3. Access APIs:
-Use tools like Postman or a web browser to test endpoints.
+Navigate to http://localhost:5000 in your web browser.
+
+Interact with the Academic Companion Bot through the chat interface.
